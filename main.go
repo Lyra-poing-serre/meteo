@@ -9,6 +9,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// https://www.infoclimat.fr/opendata/?version=2&method=get&format=json&start=2025-09-16&end=2025-09-17&token=null
 func main() {
 	err := godotenv.Load()
 	if err != nil {
